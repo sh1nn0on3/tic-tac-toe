@@ -1,6 +1,7 @@
 setup : 
     + scss
     + font Roboto
+    + image
     
 
 + App.tsx

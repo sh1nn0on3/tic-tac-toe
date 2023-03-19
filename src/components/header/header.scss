@@ -1,0 +1,36 @@
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    color: #545454;
+    width: 350px;
+    margin: 8% 8% 3% 8%;
+    
+  
+    button {
+      font-family: 'Roboto', sans-serif;
+      font-size: medium;
+      background-color: #545454;
+      color: white;
+      width: 100px;
+      height: 40px;
+      border: none;
+    }
+  
+    // small screens
+    @media screen and (max-width: 768px) {
+      font-size: large;
+      width: 280px;
+      margin: 13% 13% 5% 13%;
+  
+      button {
+        font-size: x-small;
+        width: 60px;
+        height: 30px;
+      }
+    }
+  }
